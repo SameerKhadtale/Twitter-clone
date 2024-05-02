@@ -592,6 +592,10 @@ video {
   position: absolute;
 }
 
+.relative {
+  position: relative;
+}
+
 .sticky {
   position: sticky;
 }
@@ -614,6 +618,22 @@ video {
 
 .top-\[84vh\] {
   top: 84vh;
+}
+
+.left-4 {
+  left: 1rem;
+}
+
+.left-14 {
+  left: 3.5rem;
+}
+
+.left-24 {
+  left: 6rem;
+}
+
+.left-28 {
+  left: 7rem;
 }
 
 .z-10 {
@@ -768,6 +788,14 @@ video {
 
 .w-\[70\%\] {
   width: 70%;
+}
+
+.w-10 {
+  width: 2.5rem;
+}
+
+.w-14 {
+  width: 3.5rem;
 }
 
 .cursor-pointer {
@@ -978,6 +1006,16 @@ video {
 
 .bg-\[\#16\] {
   background-color: #16;
+}
+
+.bg-red-400 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(248 113 113 / var(--tw-bg-opacity));
+}
+
+.bg-blue-800 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(30 64 175 / var(--tw-bg-opacity));
 }
 
 .p-1 {
