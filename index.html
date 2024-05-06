@@ -81,7 +81,7 @@
                     <li>
                         <div class="button w-full text-center my-3">
                             <button
-                                class="hidden md:block bg-[#1d9bf0] px-20 text-xl rounded-full py-3 text-white">Post</button>
+                            class="hidden md:block bg-[#1d9bf0] px-20 text-xl rounded-full py-3 text-white">Post</button>
                             <button
                                 class="md:hidden bg-[#1d9bf0]  px-2 md:px-4 text-xl rounded-full py-1 md:py-3 text-white">
                                 <span class="material-symbols-outlined">
@@ -91,10 +91,29 @@
                         </div>
                     </li>
                 </ul>
+            <div class="profile w-full mt-20 hidden md:flex">
+                <div class="item p-1 items-center gap-5 mx-8 flex justify-center hover:bg-gray-700 cursor-pointer rounded-full w-fit">
+                    <!-- <div class="flex gap-1"> -->
+                        <div class="p1"><img class="my-4 mx-4" style="height: 60px; width: 60px; border-radius: 30px;"
+                            src="https://pbs.twimg.com/profile_images/1595716722778333184/hozmzYwZ_400x400.jpg"></div>
+                        <div class="p2">
+                            <div>$@/\/\eeR</div>
+                            <div class="text-gray-500">7304093754</div>
+                        </div>
+                    <!-- </div> -->
+                    <div class="p3">
+                        <!-- <button class="rounded-full bg-white font-bold text-black items-center px-4 py-1">Follow</button> -->
+                        <span class="material-symbols-outlined">more_horiz</span>
+                    </div>
+                    
+                </div>
+
+            </div>
+                
             </div>
         </div>
         <div class="second w-full border-[1px] border-x-gray-600 border-y-black">
-            <div class="top flex p-5 relative">
+            <div class="top flex p-5 sticky top-0 bg-black backdrop-blur-3xl opacity-80">
                 <div class="absolute w-14 h-1 bg-blue-500 rounded-full bottom-0 left-28 z-10"></div>
                 <div class="left bg-green-4001 w-1/2 flex justify-center font-bold text-lg">For You</div>
                 <div class="right bg-red-4001 w-1/2 flex justify-center font-bold text-lg">Following</div>
@@ -115,7 +134,8 @@
                         <span class="font-bold cursor-pointer">Everyone can reply</span>
                     </div>
                     <div class="w-[80%] h-[1px] bg-gray-800 my-3"></div>
-                    <div class="blueicons flex gap-2 text-blue-600 cursor-pointer">
+                    <div class="flex justify-between">
+                    <div class="blueicons flex gap-2 text-blue-600 cursor-pointer items-center">
                         <span class="material-symbols-outlined cursor-pointer">
                             image
                         </span>
@@ -134,6 +154,10 @@
                         <span class="material-symbols-outlined cursor-pointer">
                             pin_drop
                         </span>
+                    </div>
+                    <div class="postbtn"><button
+                        class="bg-[#1d9bf0] px-6 text-md rounded-full py-2 text-white font-bold">Post</button>
+                    </div>
                     </div>
                 </div>
             </div>
@@ -546,10 +570,10 @@
 
                 <div class="item p-1 items-center gap-2 flex justify-between  hover:bg-gray-700 cursor-pointer rounded-xl">
                     <div class="flex gap-1">
-                        <div class="p1"><img class="w-12 h-12" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR49EFrgvgSQ3MhNyESEdJtW3arzl5fQMjNq41r04nlxw&s" alt=""></div>
+                        <div class="p1"><img class="w-12 h-12" src="https://pbs.twimg.com/profile_images/446356636710363136/OYIaJ1KK_bigger.png" alt=""></div>
                         <div class="p2">
-                            <div>Vercel</div>
-                            <div class="text-gray-500">@vercel</div>
+                            <div>React</div>
+                            <div class="text-gray-500">@react</div>
                         </div>
                     </div>
                     <div class="p3">
@@ -558,12 +582,12 @@
                     
                 </div>
                
-                <div class="item p-1 items-center gap-2 flex justify-between ">
+                <div class="item p-1 items-center gap-2 flex justify-between hover:bg-gray-700 cursor-pointer rounded-xl">
                     <div class="flex gap-1">
-                        <div class="p1"><img class="w-12 h-12" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR49EFrgvgSQ3MhNyESEdJtW3arzl5fQMjNq41r04nlxw&s" alt=""></div>
+                        <div class="p1"><img class="w-12 h-12" src="https://pbs.twimg.com/profile_images/989513875124117504/UNMIb20k_bigger.jpg" alt=""></div>
                         <div class="p2">
-                            <div>Vercel</div>
-                            <div class="text-gray-500">@vercel</div>
+                            <div>Shad.js</div>
+                            <div class="text-gray-500">@shad.js</div>
                         </div>
                     </div>
                     <div class="p3">
@@ -571,11 +595,16 @@
                     </div>
                     
                 </div>
-               
-                <div class="text-blue-500 underline">Show more</div>
 
-            </div>
-
+                <div class="text-blue-500 underline hover:cursor-pointer">Show more</div>
+                <div class="terms sticky top-[80vh] m-5 w-fit py-5 rounded-xl space-y-4">
+                    <span class="hover:underline text-gray-500 cursor-pointer mr-3">Terms of Service</span>
+                    <span class="hover:underline text-gray-500 cursor-pointer mr-3">Privacy Policy</span>
+                    <span class="hover:underline text-gray-500 cursor-pointer mr-3">Cookie Policy</span>
+                    <span class="hover:underline text-gray-500 cursor-pointer">Accessibility</span>
+                    <span class="hover:underline text-gray-500 cursor-pointer mr-3">Ads info</span>
+                    <span class="hover:underline text-gray-500 cursor-pointer mr-3">More</span>
+                    <span class="hover:underline text-gray-500 cursor-pointer mr-2">© 2024 X Corp.</span>
         </div>
 </body>
 
